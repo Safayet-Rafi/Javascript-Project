@@ -1,0 +1,22 @@
+body {
+    background: black;
+}
+
+#timeContainer{
+   text-align: center;
+   border: 3px solid;
+   border-radius: 30px;
+   background-color:black;
+   width: 80%;
+   max-width: 500px; /* Limit the maximum width of the container */
+   margin: 0 auto; /* Center the container horizontally */
+   padding: 20px; 
+}
+
+
+#timeDisplay{
+    font-size: 8vw;
+    color: #17D4FE;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
