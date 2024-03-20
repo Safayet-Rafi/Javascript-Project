@@ -1,0 +1,34 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+        <title>Color Game</title>
+    </head>
+
+    <body>
+        <div id="gameContainer">
+            <div id="heading">
+                <h1>The Great Gaussing Game</h1>
+                <p id="rgbDisplay"></p>
+                <div id="gameButton">
+                    <button id="newColor" class="buttonStyle" onclick="assignRandomColor()">New Color</button>
+                    <button id="playAgain" class="buttonStyle" onclick="playTheGameAgain()">Play Again</button>
+                </div>
+            </div>
+            <div id="colorContainer">
+                <div class="row">
+                    <button id="color1" class="colorChooser" onclick="guessTheColor(0)"></button>
+                    <button id="color2" class="colorChooser" onclick="guessTheColor(1)"></button>
+                    <button id="color3" class="colorChooser" onclick="guessTheColor(2)"></button>
+                </div>
+                <div class="row">
+                    <button id="color4" class="colorChooser" onclick="guessTheColor(3)"></button>
+                    <button id="color5" class="colorChooser" onclick="guessTheColor(4)"></button>
+                    <button id="color6" class="colorChooser" onclick="guessTheColor(5)"></button>
+                </div>
+            </div>
+        </div>
+        <script src="./main.js"></script>
+    </body>
+</html>
