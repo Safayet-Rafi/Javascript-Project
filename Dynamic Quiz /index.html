@@ -1,0 +1,50 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css">
+        <title>Dynamic Quiz</title>
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="title">
+               <h1>Dynamic Quiz</h1>
+            </div>
+            <div id="quiz">
+                Question 
+            </div>
+            </br>
+            <div id="question">
+               What is 
+            </div>
+            <div id="answerBox">
+                <div class="inputDiv">
+                    <input type="radio" id="option1" name="option" value="Option 1">
+                    <label for="option1">Option 1</label><br>
+                </div>
+                <div class="inputDiv">
+                    <input type="radio" id="option2" name="option" value="Option 2">
+                    <label for="option2">Option 2</label><br>
+                </div>
+                <div class="inputDiv">
+                    <input type="radio" id="option3" name="option" value="Option 3">
+                    <label for="option3">Option 3</label><br>
+                </div>
+                <div class="inputDiv">
+                    <input type="radio" id="option4" name="option" value="Option 4">
+                    <label for="option4">Option 4</label><br>
+                </div>
+            </div>
+            <div id="submit">
+               <button id="nextButton" class="submitButton"> Next </button>
+               <button id="stopButton" class="submitButton">Stop</button>
+            </div>
+        </div>
+        <div id="secondPage">
+             <p id="text"></p>
+             <button id="playAgainButton" class="submitButton">Play Again</button>
+        </div>
+        <script src="./main.js"></script>
+    </body>
+</html>
