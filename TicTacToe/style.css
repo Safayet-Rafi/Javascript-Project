@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+}
+
+#main{
+    width: 50%;
+    height: 90%;
+    background-color:rgb(249, 244, 244);
+    margin: 2% auto;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: small;
+    overflow: auto;
+}
+
+#players{
+    display: flex;
+    font-size: small;
+}
+
+.player{
+    background-color: black;
+    color: white;
+    width: 30%;
+    height: auto;
+    margin-left: 15%;
+    border-radius: 10px;
+}
+
+#board{
+    width: 50%;
+    height: 50%;
+    background-color: black;
+    margin: 5% auto;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    text-align: center;
+    justify-items: center;
+    align-items: center;;
+}
+
+
+
+.cell {
+    width:50%;
+    height: 60%;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.cell:hover{
+    background-color: rgb(200, 194, 186);
+}
+
+#restartBtn{
+    background-color: black;
+    color: white;
+    width: 20%;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#restartBtn:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-weight: bold;
+}
